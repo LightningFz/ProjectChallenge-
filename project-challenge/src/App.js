@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import OpenAIComponent from './components/OpenAIComponent';
 
 function App() {
   return (
@@ -18,8 +20,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <OpenAIComponent/>
     </div>
   );
 }
 
 export default App;
+
